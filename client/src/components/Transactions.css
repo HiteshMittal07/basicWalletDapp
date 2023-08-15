@@ -1,0 +1,45 @@
+.transactions-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.transactions-heading {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-header {
+    background-color: #96d4d4;
+    color: #333;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #f4f4f4;
+}
+
+.table tbody tr:hover {
+    background-color: #e0f1f1;
+    cursor: pointer;
+}

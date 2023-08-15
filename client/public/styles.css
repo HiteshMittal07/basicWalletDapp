@@ -1,0 +1,78 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* App container */
+.App {
+    text-align: center;
+}
+
+/* Background styles */
+.body {
+    background-image: url(background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for the form */
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Form elements */
+.btn {
+    margin: 10px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+/* Display balance and owner */
+.balance-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+/* Transaction table */
+.transactions-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.transactions-table th,
+.transactions-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.transactions-table th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+
+.transactions-table tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+/* Add more styling as needed */
